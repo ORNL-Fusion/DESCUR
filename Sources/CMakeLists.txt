@@ -16,4 +16,5 @@ target_sources(xdescur
                $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/restart.f>
                $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/scrunch.f>
                $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/vname0.f>
+               $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/amplitud.f>
 )
