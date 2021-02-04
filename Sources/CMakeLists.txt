@@ -1,0 +1,19 @@
+target_sources(xdescur
+               PRIVATE
+               $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/vname1.f>
+               $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/descur.f>
+               $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/evolve.f>
+               $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/fftrans.f>
+               $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/fixaray.f>
+               $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/funct.f>
+               $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/getangle.f>
+               $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/getrz.f>
+               $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/inguess.f>
+               $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/order.f>
+               $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/printit.f>
+               $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/read_indata.f>
+               $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/read_wout_curve.f>
+               $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/restart.f>
+               $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/scrunch.f>
+               $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/vname0.f>
+)
