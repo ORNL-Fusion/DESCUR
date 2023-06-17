@@ -7,3 +7,5 @@ add_executable (xdescur)
 target_link_libraries (xdescur PUBLIC stell)
 
 add_subdirectory (Sources)
+
+install (TARGETS xdescur)
